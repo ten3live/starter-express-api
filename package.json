@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,19 +15,15 @@
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "express-validator": "^6.15.0",
-
     "joi": "^13.1.0",
     "joi-objectid": "^2.0.0",
     "jsonwebtoken": "^9.0.0",
     "mongodb": "^5.1.0",
     "mongoose": "^6.10.0",
-
     "mysql2": "^3.1.2",
     "nodemailer": "^6.9.1",
     "nodemailer-smtp-transport": "^2.7.4",
-  
-  
-  "devDependencies": {
+ "devDependencies": {
     "@babel/cli": "^7.21.0",
     "@babel/core": "^7.21.0",
     "@babel/node": "^7.20.7",
