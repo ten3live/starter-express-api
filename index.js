@@ -30,8 +30,6 @@ mongoose
   .connect("mongodb+srv://ten3live:sajjadali7@sajjadsolangi.eduls.mongodb.net/test")
   .then(() => console.log("Connected to MongoDB..."))
   .catch((err) => console.log("Could not connect to MongoDB..."));
-mongoose.set("strictQuery", true);
-//Use Routes
 
 app.use(bodyParser.json({ limit: "50mb", extended: true }));
 app.use(
