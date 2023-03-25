@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js",
+    "start": "node index.js",
     "babel": "babel-node index.js"
   },
   "author": "",
@@ -27,8 +27,7 @@
     "mysql2": "^3.1.2",
     "nodemailer": "^6.9.1",
     "nodemailer-smtp-transport": "^2.7.4",
-    "nodemon": "^2.0.20",
-    "socket.io": "^4.6.1"
+  
   },
   "devDependencies": {
     "@babel/cli": "^7.21.0",
