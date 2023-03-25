@@ -44,7 +44,7 @@ app.use(
 app.use(bodyParser.text({ limit: "200mb" }));
 app.use(express.json());
 app.use(cors());
-app.use(express.static("./public/uploads"));
+// app.use(express.static("./public/uploads"));
 
 app.use("/api/comments", comments);
 app.use("/api/messages", messages);
