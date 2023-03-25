@@ -1,9 +1,10 @@
 {
-  "name": "server.app",
+  "name": "starter-micro-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Cyclic.sh micro api starter",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
     "start": "node index.js"
   },
   "author": "",
@@ -22,11 +23,6 @@
     "mongoose": "^6.10.0",
     "mysql2": "^3.1.2",
     "nodemailer": "^6.9.1",
-    "nodemailer-smtp-transport": "^2.7.4",
- "devDependencies": {
-    "@babel/cli": "^7.21.0",
-    "@babel/core": "^7.21.0",
-    "@babel/node": "^7.20.7",
-    "@babel/preset-env": "^7.20.2"
+    "nodemailer-smtp-transport": "^2.7.4"
   }
 }
