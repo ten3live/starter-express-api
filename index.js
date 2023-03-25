@@ -27,7 +27,7 @@ if (!config.get("jwtPrivateKey")) {
   process.exit(1);
 }
 mongoose
-  .connect("mongodb+srv://ten3live:sajjadali7@sajjadsolangi.eduls.mongodb.net/test")
+  .connect("mongodb+srv://ten3live:b126d32f-18ba-4f36-ac5d-5ce69eb2316d@sajjadsolangi.eduls.mongodb.net/test")
   .then(() => console.log("Connected to MongoDB..."))
   .catch((err) => console.log("Could not connect to MongoDB..."));
 
